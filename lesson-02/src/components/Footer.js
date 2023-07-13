@@ -4,7 +4,7 @@ const year = 2023;
 
 const Footer = () => {
   return (
-    <div>
+    <div className="footer">
       <p>&copy Copyright Reserved {year}</p>
     </div>
   );
