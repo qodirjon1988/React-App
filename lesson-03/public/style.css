@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 400px;
+  text-align: center;
+  background-color: #000;
+  font-family: sans-serif;
+  padding: 1.5rem;
+}
+
+.heading {
+  border: 1px solid #fff;
+}
+
+.card {
+  margin-bottom: 75px;
+  height: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 16px;
+  border: 1px solid red;
+}
+
+h2 {
+  margin-bottom: 25px;
+}
+
+img {
+  width: 230px;
+  height: 220px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 73%);
+}
